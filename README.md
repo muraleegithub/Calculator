@@ -1,3 +1,6 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python CI](https://github.com/muraleegithub/Calculator/actions/workflows/python-ci.yml/badge.svg)
+
 Simple Calculator
 A minimal interactive calculator implemented in Python.
 
