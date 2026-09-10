@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
+import sys
+import os
 import pytest
+# Ensure repository root is on sys.path so tests can import calculator when GitHub Actions
+# runs with a nested working directory.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from calculator import perform_operation
 
 def test_add():
